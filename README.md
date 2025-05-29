@@ -23,7 +23,7 @@ This project is a clock display program for the [LilyGO T-Display S3](https://ww
 
 1. Install the Arduino IDE.
 2. Add support for the T-Display S3 board in Arduino IDE (add the ESP32 board manager URL in "Preferences", then install ESP32 via the "Boards Manager").
-3. Download this project and open `T_Display_S3_Clock_worksgreat.ino` in Arduino IDE.
+3. Download this project and open `T_Display_S3_BusyBee_worksgreat.ino` in Arduino IDE.
 4. Install all required libraries as indicated by the `#include` statements (use "Tools" > "Manage Libraries" to search and install).
 5. Select the correct board model and port.
 6. Click "Upload" to flash the program to your T-Display S3.
