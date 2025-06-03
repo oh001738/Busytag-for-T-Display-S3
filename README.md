@@ -7,6 +7,8 @@ This project is a clock display program for the [LilyGO T-Display S3](https://ww
 - Designed for LilyGO T-Display S3 development board
 - Written in Arduino language (.ino)
 - Displays clock information on the onboard screen
+- **Game of Life Particle Animation**: When the Game of Life auto-resets, all live cells animate to form the "BusyBee" text using particle effects.
+- **Optimized Particle Text Animation**: Particles are arranged only along the text outline, resulting in a smoother and sharper font contour. The animation uses an easeOutCubic easing curve for more natural and elegant motion.
 
 ## Hardware Requirements
 
@@ -23,7 +25,7 @@ This project is a clock display program for the [LilyGO T-Display S3](https://ww
 
 1. Install the Arduino IDE.
 2. Add support for the T-Display S3 board in Arduino IDE (add the ESP32 board manager URL in "Preferences", then install ESP32 via the "Boards Manager").
-3. Download this project and open `T_Display_S3_BusyBee_worksgreat.ino` in Arduino IDE.
+3. Download this project and open `T_Display_S3_Clock_worksgreat.ino` in Arduino IDE.
 4. Install all required libraries as indicated by the `#include` statements (use "Tools" > "Manage Libraries" to search and install).
 5. Select the correct board model and port.
 6. Click "Upload" to flash the program to your T-Display S3.
@@ -31,7 +33,8 @@ This project is a clock display program for the [LilyGO T-Display S3](https://ww
 ## Usage
 
 1. After uploading, the device will automatically start and display the clock on the screen.
-2. To customize the display, edit the `.ino` file and re-upload.
+2. When the Game of Life animation auto-resets, the screen will display the "BusyBee" text using a particle animation, with particles arranged along the text outline and smooth, natural animation.
+3. To customize the display, edit the `.ino` file and re-upload.
 
 ## References
 
